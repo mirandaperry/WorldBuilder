@@ -29,16 +29,15 @@ Partial Class Timeline
         '
         'MainPanel
         '
-        Me.MainPanel.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.MainPanel.AutoScroll = True
         Me.MainPanel.AutoSize = True
+        Me.MainPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.MainPanel.Controls.Add(Me.Test)
-        Me.MainPanel.Location = New System.Drawing.Point(12, 12)
+        Me.MainPanel.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.MainPanel.Location = New System.Drawing.Point(0, 0)
         Me.MainPanel.Margin = New System.Windows.Forms.Padding(0)
         Me.MainPanel.Name = "MainPanel"
-        Me.MainPanel.Size = New System.Drawing.Size(776, 426)
+        Me.MainPanel.Size = New System.Drawing.Size(800, 450)
         Me.MainPanel.TabIndex = 0
         '
         'Test

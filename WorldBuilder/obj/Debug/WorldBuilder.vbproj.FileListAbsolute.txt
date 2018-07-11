@@ -1,0 +1,12 @@
+C:\Users\Mikay\Documents\Code\WorldManager\WorldBuilder\bin\Debug\WorldBuilder.exe.config
+C:\Users\Mikay\Documents\Code\WorldManager\WorldBuilder\bin\Debug\WorldBuilder.exe
+C:\Users\Mikay\Documents\Code\WorldManager\WorldBuilder\bin\Debug\WorldBuilder.pdb
+C:\Users\Mikay\Documents\Code\WorldManager\WorldBuilder\bin\Debug\WorldBuilder.xml
+C:\Users\Mikay\Documents\Code\WorldManager\WorldBuilder\obj\Debug\WorldBuilder.vbprojAssemblyReference.cache
+C:\Users\Mikay\Documents\Code\WorldManager\WorldBuilder\obj\Debug\WorldBuilder.Resources.resources
+C:\Users\Mikay\Documents\Code\WorldManager\WorldBuilder\obj\Debug\WorldBuilder.Timeline.resources
+C:\Users\Mikay\Documents\Code\WorldManager\WorldBuilder\obj\Debug\WorldBuilder.vbproj.GenerateResource.cache
+C:\Users\Mikay\Documents\Code\WorldManager\WorldBuilder\obj\Debug\WorldBuilder.vbproj.CoreCompileInputs.cache
+C:\Users\Mikay\Documents\Code\WorldManager\WorldBuilder\obj\Debug\WorldBuilder.exe
+C:\Users\Mikay\Documents\Code\WorldManager\WorldBuilder\obj\Debug\WorldBuilder.xml
+C:\Users\Mikay\Documents\Code\WorldManager\WorldBuilder\obj\Debug\WorldBuilder.pdb

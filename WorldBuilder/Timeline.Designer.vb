@@ -23,6 +23,8 @@ Partial Class Timeline
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.MainPanel = New System.Windows.Forms.Panel()
+        Me.Test = New System.Windows.Forms.Button()
+        Me.MainPanel.SuspendLayout()
         Me.SuspendLayout()
         '
         'MainPanel
@@ -32,11 +34,21 @@ Partial Class Timeline
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.MainPanel.AutoScroll = True
         Me.MainPanel.AutoSize = True
+        Me.MainPanel.Controls.Add(Me.Test)
         Me.MainPanel.Location = New System.Drawing.Point(12, 12)
         Me.MainPanel.Margin = New System.Windows.Forms.Padding(0)
         Me.MainPanel.Name = "MainPanel"
         Me.MainPanel.Size = New System.Drawing.Size(776, 426)
         Me.MainPanel.TabIndex = 0
+        '
+        'Test
+        '
+        Me.Test.Location = New System.Drawing.Point(698, 400)
+        Me.Test.Name = "Test"
+        Me.Test.Size = New System.Drawing.Size(75, 23)
+        Me.Test.TabIndex = 0
+        Me.Test.Text = "Test"
+        Me.Test.UseVisualStyleBackColor = True
         '
         'Timeline
         '
@@ -46,10 +58,12 @@ Partial Class Timeline
         Me.Controls.Add(Me.MainPanel)
         Me.Name = "Timeline"
         Me.Text = "Timeline"
+        Me.MainPanel.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents MainPanel As Panel
+    Friend WithEvents Test As Button
 End Class
